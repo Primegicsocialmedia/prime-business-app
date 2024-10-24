@@ -28,6 +28,9 @@ const TabLayout = () => {
         tabBarIcon:({color}) => <Ionicons name="people-circle" size={24} color={color} />
       }}
       />
+  
+  
+      
     </Tabs>
   );
 };
