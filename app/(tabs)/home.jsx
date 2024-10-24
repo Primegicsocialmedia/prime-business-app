@@ -1,13 +1,23 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import Header from '../../components/Home/Header'
 
 
 
 const home = () => {
 
   return (
-    <View className='flex items-center mt-10'>
-      <Text className='text-xl text-PRIMARY' >Home</Text>
+    <View>
+      {/* Header */}
+      <Header/>
+      
+      {/*Slider */}
+      
+      
+      {/* Category*/}
+      
+      
+      {/* Popular Business List*/}
     </View>
   )
 }
