@@ -1,11 +1,12 @@
 import { View, Text, Image, TouchableOpacity } from "react-native";
 import React from "react";
+import { router, useRouter } from "expo-router";
 
 const PopularBusinessCard = ({ business }) => {
   return (
     <TouchableOpacity
       className="ml-5 p-5 bg-white rounded-2xl"
-      onPress={() => router.push("/businessdetail/" + item?.id)}
+      onPress={() => router.push("/businessdetail/" + business?.id)}
     >
       <Image
         source={{ uri: business.imageUrl }}
